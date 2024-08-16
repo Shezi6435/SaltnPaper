@@ -1,0 +1,387 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: aliceblue;
+    
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 1rem;
+}
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;    /* border: 1px solid white; */
+}
+
+.nav-list {
+    list-style: none;  
+    display: flex;
+    gap: 2rem;
+}
+  
+.nav-list a {
+    text-decoration: none;
+}
+.web-logo{
+    width: 170px;
+}  
+.button-1 {
+    text-decoration: none;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    padding: 0.6rem 1.5rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+.button-2 {
+    border: none;
+    text-decoration: none;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    padding: 0.6rem 1.5rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.hero-container img{
+    width: 100%;
+    height: 75vh;
+}
+.Restaurant img{
+    background-color: white;
+}
+.hero{
+    padding: 2rem 0;
+    text-align: center;
+    width: 100%;
+    height: 35vh;
+    /* border: 1px solid white ; */
+}
+.hero h1 {
+    line-height: 3rem;
+}
+.hero p {
+    line-height: 3rem;
+}
+.category{
+    /* border: 1px solid wheat; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: blue; */
+    padding: 2rem;
+    gap: 2rem;
+}
+.Restaurant button {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    text-decoration: none;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    padding: 0.6rem 1.5rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    /* transition: all 0.3s ease; */
+}
+.Franchise{
+    width: 100%;
+    height: 120vh;
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    flex-direction: column;
+}    
+@media (max-width: 768px) {
+    .nav-list {
+      display: none;
+    }
+    .button-1{
+        display:none;
+    }
+    .button-2{
+        padding: 1rem;
+    }
+    .web-logo{
+    margin-left: 13rem;
+    width: 120px;
+    }
+    .category{
+        display: flex;
+        flex-direction: column;
+    }
+    .Franchise{
+        display: flex;
+        flex-direction: column;
+    }
+    .nxtfc{
+        
+    }
+}
+.sub-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(24, 24, 24);
+}
+
+.FSB{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(24, 24, 24);
+    margin: auto;
+}
+.BWL{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(24, 24, 24);
+    margin: auto;   
+}
+.Franchise-card{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(24, 24, 24);
+    margin: auto;
+}
+.VlgFC{
+    /* background-color: gray; */
+    width: 100%;
+    background-color: rgb(24, 24, 24);
+    /* display: flex;
+    align-items: center; */
+}
+.title{
+    display: flex;
+    justify-content: center;
+    line-height: 2rem;
+    text-align: center;
+    padding: 3rem;
+    background: transparent
+
+}
+.vlgcard{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background: transparent;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+.txt{
+    text-align: left;
+    margin-left: 2rem;
+    align-self: center;
+    line-height: 2rem;
+    background: transparent;
+}
+#GUJRANWALA{
+    color: red;
+    background: transparent;
+}
+.title h1 {
+    background: transparent;
+}
+.title h1 span{
+    background: transparent;
+}
+
+.txt p {
+    background: transparent;
+}
+.txt h2 {
+    background: transparent;
+}
+.txt h2 span {
+    background: transparent;
+}
+.txt button{
+    border: none;
+    text-decoration: none;
+    background-color:rgb(25, 204, 25);
+    color: white;
+    padding: 0.6rem 1.5rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    margin-top: 2rem;
+    transition: all 0.3s ease;
+}
+#arrow{
+border: none;
+text-decoration: none;
+background-color: rgb(255, 255, 255);
+color: rgb(25, 204, 25);
+padding: 0.7rem;
+border-radius: 50%;
+}
+.hero2{
+    padding: 2rem 0;
+    text-align: center;
+    width: 100%;
+    height: 35vh;
+    /* border: 1px solid white ; */
+}
+.hero2 h1 {
+    line-height: 3rem;
+}
+.hero2 p {
+    line-height: 3rem;
+}
+.nxtfc {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* background-color: blue; */
+    margin: auto;
+    gap: 2rem;
+}
+.Sadhoke{
+    background-color: white;
+    padding: 1rem 3.5rem;
+    border-radius: 0.5rem;
+    margin: ;
+}
+.Sadhoke img{
+    background: transparent;
+}
+.Sadhoke h2{
+    background: transparent;
+    color: black;
+}
+.Sadhoke p{
+    background: transparent;
+    color: black;
+}
+.Sadhoke span{
+    background: transparent;
+    color: black;
+}
+.Sheikhupura{
+    background-color: white;
+    padding: 1rem 3.5rem;
+    border-radius: 0.5rem;
+    margin: ;
+}
+.Sheikhupura img{
+    background: transparent;
+}
+.Sheikhupura h2{
+    background: transparent;
+    color: black;
+}
+.Sheikhupura p{
+    background: transparent;
+    color: black;
+}
+.Sheikhupura span{
+    background: transparent;
+    color: black;
+}
+.Rawalpindi{
+    background-color: white;
+    padding: 1rem 3.5rem;
+    border-radius: 0.5rem;
+    margin: ;
+}
+.Rawalpindi img{
+    background: transparent;
+}
+.Rawalpindi h2{
+    background: transparent;
+    color: black;
+}
+.Rawalpindi p{
+    background: transparent;
+    color: black;
+}
+.Rawalpindi span{
+    background: transparent;
+    color: black;
+} 
+
+.sub-heading{
+    /* background-color: blue; */
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.heading{
+    text-align: center;
+    
+}
+.heading span{
+    font-weight: 1000;
+    
+}
+.heading span.archivo-black-regular {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.card-section{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* background-color: blue; */
+    margin: auto;
+}
+.card{
+    /* background-color: gray; */
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0px;
+    gap: .5rem;
+    margin: 5px;
+}
+.card img{
+    width: 400px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+}
+#emporium{
+    color: red;
+
+}
+.card span{
+    color: aliceblue;
+    font-weight: 200;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.card button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid white;
+}
+.card button i{
+    background-color: rgb(248, 248, 248);
+    padding: 5px;
+    border-radius: 50%;
+    color: red;
+}
+
